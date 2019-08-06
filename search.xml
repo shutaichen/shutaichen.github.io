@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[javaJDK安装教程]]></title>
-    <url>%2F2019%2F08%2F05%2FjavaJDK%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[第一篇文章哦 列表1 a 子列表]]></content>
+    <title><![CDATA[jdk下载及环境变量配置]]></title>
+    <url>%2F2019%2F08%2F06%2Fjdk%E4%B8%8B%E8%BD%BD%E5%8F%8A%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[（一）安装 1.下载JDK下载地址：点击直达官网下载]]></content>
       <categories>
         <category>java</category>
       </categories>
       <tags>
-        <tag>-随笔 -实战教程 -心得分享</tag>
+        <tag>-实战教程 -心得分享</tag>
       </tags>
   </entry>
   <entry>
