@@ -59,34 +59,19 @@
   };
 </script>
 
-  <meta name="description" content="（一）下载JDK下载地址：点击直达官网下载     拉至底部 （二）安装1.此处需将公共JRE的功能去掉，因为JDK本身就包含了JRE，不需要重复安装 2.可以在此处更改安装路径(请务必记住安装路径，后面环境变量配置有用，此处以D盘根路径作为演示)   （三）配置环境变量注：以win10为例，其他版本类似 1.完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量">
-<meta name="keywords" content="-实战教程 -心得分享">
+  <meta name="description" content="概述面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。步骤1. 使用 private 关键字来修饰成员变量。2. 对需要访问的">
+<meta name="keywords" content="-笔记 -心得分享">
 <meta property="og:type" content="article">
-<meta property="og:title" content="jdk下载及环境变量配置">
-<meta property="og:url" content="https://shutaichen.github.io/2019/08/06/jdk下载及环境变量配置/index.html">
+<meta property="og:title" content="java三大基本特征之封装">
+<meta property="og:url" content="https://shutaichen.github.io/2019/08/18/java三大基本特征之封装/index.html">
 <meta property="og:site_name" content="shutaiblog">
-<meta property="og:description" content="（一）下载JDK下载地址：点击直达官网下载     拉至底部 （二）安装1.此处需将公共JRE的功能去掉，因为JDK本身就包含了JRE，不需要重复安装 2.可以在此处更改安装路径(请务必记住安装路径，后面环境变量配置有用，此处以D盘根路径作为演示)   （三）配置环境变量注：以win10为例，其他版本类似 1.完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量">
+<meta property="og:description" content="概述面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。步骤1. 使用 private 关键字来修饰成员变量。2. 对需要访问的">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/hPuHJdwbIBvqKGo.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/6K1ItyN3claDMj9.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/fxJGVCwduiP2KyS.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/Z67b9WxlheyVcGa.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/ftpxIQZ1T7ljrYA.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/PwAE17Om6nZgCYu.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/Q4hlB3LMJUtIHPp.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/FCXOxphrkYw57TB.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/GgLkFWufvpx61TZ.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/FmxOZgMEcQAihjn.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/7FPmn1pcIvsQtVa.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/OEBkXm9InKyoufs.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/qaYXA9KxDbJzpLI.png">
-<meta property="og:image" content="https://i.loli.net/2019/08/06/wJA3GTWcYOjx24d.png">
-<meta property="og:updated_time" content="2019-08-18T14:12:36.709Z">
+<meta property="og:updated_time" content="2019-08-18T14:39:50.912Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="jdk下载及环境变量配置">
-<meta name="twitter:description" content="（一）下载JDK下载地址：点击直达官网下载     拉至底部 （二）安装1.此处需将公共JRE的功能去掉，因为JDK本身就包含了JRE，不需要重复安装 2.可以在此处更改安装路径(请务必记住安装路径，后面环境变量配置有用，此处以D盘根路径作为演示)   （三）配置环境变量注：以win10为例，其他版本类似 1.完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量">
-<meta name="twitter:image" content="https://i.loli.net/2019/08/06/hPuHJdwbIBvqKGo.png">
-  <link rel="canonical" href="https://shutaichen.github.io/2019/08/06/jdk下载及环境变量配置/">
+<meta name="twitter:title" content="java三大基本特征之封装">
+<meta name="twitter:description" content="概述面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。步骤1. 使用 private 关键字来修饰成员变量。2. 对需要访问的">
+  <link rel="canonical" href="https://shutaichen.github.io/2019/08/18/java三大基本特征之封装/">
 
 
 <script id="page.configurations">
@@ -95,7 +80,7 @@
   };
 </script>
 
-  <title>jdk下载及环境变量配置 | shutaiblog</title>
+  <title>java三大基本特征之封装 | shutaiblog</title>
   
 
 
@@ -259,7 +244,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://shutaichen.github.io/2019/08/06/jdk下载及环境变量配置/">
+    <link itemprop="mainEntityOfPage" href="https://shutaichen.github.io/2019/08/18/java三大基本特征之封装/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="去月球的行李">
@@ -273,7 +258,7 @@
       <header class="post-header">
 
         
-          <h1 class="post-title" itemprop="name headline">jdk下载及环境变量配置
+          <h1 class="post-title" itemprop="name headline">java三大基本特征之封装
 
               
             
@@ -293,21 +278,11 @@
                 
               
 
-              <time title="创建时间：2019-08-06 15:59:16" itemprop="dateCreated datePublished" datetime="2019-08-06T15:59:16+08:00">2019-08-06</time>
+              <time title="创建时间：2019-08-18 20:40:32 / 修改时间：22:39:50" itemprop="dateCreated datePublished" datetime="2019-08-18T20:40:32+08:00">2019-08-18</time>
             </span>
           
             
 
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-08-18 22:12:36" itemprop="dateModified" datetime="2019-08-18T22:12:36+08:00">2019-08-18</time>
-              </span>
             
           
             <span class="post-meta-item">
@@ -346,18 +321,28 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="（一）下载"><a href="#（一）下载" class="headerlink" title="（一）下载"></a><strong>（一）下载</strong></h1><p>JDK下载地址：<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank" rel="noopener">点击直达官网下载</a></p>
-<p><img src="https://i.loli.net/2019/08/06/hPuHJdwbIBvqKGo.png" alt="a.png"><br>    <center><h4><font color="blue">拉至底部</font></h4></center><br><img src="https://i.loli.net/2019/08/06/6K1ItyN3claDMj9.png" alt="b.png"></p>
-<h1 id="（二）安装"><a href="#（二）安装" class="headerlink" title="（二）安装"></a><strong>（二）安装</strong></h1><h4>1.此处需将公共JRE的功能去掉，因为JDK本身就包含了JRE，不需要重复安装</h4>
-<h4>2.可以在此处更改安装路径(请务必记住安装路径，后面环境变量配置有用，此处以D盘根路径作为演示)</h4>
+        <h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a><strong>概述</strong></h1><h5 id="面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。"><a href="#面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。" class="headerlink" title="面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。"></a><strong>面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。</strong></h5><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a><strong>步骤</strong></h1><h5 id="1-使用-private-关键字来修饰成员变量。"><a href="#1-使用-private-关键字来修饰成员变量。" class="headerlink" title="1. 使用 private 关键字来修饰成员变量。"></a><strong>1. 使用 private 关键字来修饰成员变量。</strong></h5><h5 id="2-对需要访问的成员变量，提供对应的一对-getXxx-方法-、setXxx-方法。"><a href="#2-对需要访问的成员变量，提供对应的一对-getXxx-方法-、setXxx-方法。" class="headerlink" title="2. 对需要访问的成员变量，提供对应的一对 getXxx 方法 、setXxx 方法。"></a><strong>2. 对需要访问的成员变量，提供对应的一对 getXxx 方法 、setXxx 方法。</strong></h5><p><em>（private的含义:private是一个权限修饰符，代表最小权限。可以修饰成员变量和成员方法。被private修饰后的成员变量和成员方法，只在本类中才能访问。）</em></p>
+<h1 id="操作——private关键字"><a href="#操作——private关键字" class="headerlink" title="操作——private关键字"></a><strong>操作——private关键字</strong></h1><h5 id="private的使用格式"><a href="#private的使用格式" class="headerlink" title="private的使用格式:"></a>private的使用格式:</h5><p><code>private 数据类型 变量名 ；</code></p>
+<ul>
+<li><p>使用 private 修饰成员变量，代码如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line"><span class="keyword">private</span> String name;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>提供 getXxx 方法 / setXxx 方法，可以访问成员变量，代码如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line"><span class="keyword">private</span> String name;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line"><span class="keyword">this</span>.name = name;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line"><span class="keyword">this</span>.age = age;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="keyword">return</span> age;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://i.loli.net/2019/08/06/fxJGVCwduiP2KyS.png" alt="c.png"></p>
-<h1 id="（三）配置环境变量"><a href="#（三）配置环境变量" class="headerlink" title="（三）配置环境变量"></a><strong>（三）配置环境变量</strong></h1><p><em>注：以win10为例，其他版本类似</em></p>
-<h2 id="1-完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量配置"><a href="#1-完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量配置" class="headerlink" title="1.完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量配置"></a>1.完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量配置</h2><p>(窗口上方是用户变量，下方是系统变量.)-在系统变量中新建</p>
-<p><img src="https://i.loli.net/2019/08/06/Z67b9WxlheyVcGa.png" alt="d.png"><br><img src="https://i.loli.net/2019/08/06/ftpxIQZ1T7ljrYA.png" alt="e.png"><br><img src="https://i.loli.net/2019/08/06/PwAE17Om6nZgCYu.png" alt="f.png"><br><img src="https://i.loli.net/2019/08/06/Q4hlB3LMJUtIHPp.png" alt="g.png"><br><img src="https://i.loli.net/2019/08/06/FCXOxphrkYw57TB.png" alt="h.png"></p>
-<h2 id="2-变量名及变量值："><a href="#2-变量名及变量值：" class="headerlink" title="2.变量名及变量值："></a>2.变量名及变量值：</h2><p>a.变量名:<br><code>JAVA_HOME</code><br>b.变量值:<br><strong>安装JDK的路径，查看路径名称方法如下图</strong><br><img src="https://i.loli.net/2019/08/06/GgLkFWufvpx61TZ.png" alt="i.png"></p>
-<h2 id="3-更改path的变量值。"><a href="#3-更改path的变量值。" class="headerlink" title="3.更改path的变量值。"></a>3.更改path的变量值。</h2><p>a.鼠标单击path,然后点击编辑<br><img src="https://i.loli.net/2019/08/06/FmxOZgMEcQAihjn.png" alt="j.png"><br>b.点击新建，输入变量值，将其上移至最顶。<br><code>%JAVA_HOME%\bin</code><br><img src="https://i.loli.net/2019/08/06/7FPmn1pcIvsQtVa.png" alt="k.png"><br><img src="https://i.loli.net/2019/08/06/OEBkXm9InKyoufs.png" alt="l.png"></p>
-<h2 id="4-验证配置是否成功："><a href="#4-验证配置是否成功：" class="headerlink" title="4.验证配置是否成功："></a>4.验证配置是否成功：</h2><p>运行CMD（Win+R或右下角点开始菜单的输入处），在展开的命令行窗口中输入java，<br>若成功展示Java的配置信息，说明配置成功，若没有，请检查前边的配置。<br><img src="https://i.loli.net/2019/08/06/qaYXA9KxDbJzpLI.png" alt="m.PNG"><br><img src="https://i.loli.net/2019/08/06/wJA3GTWcYOjx24d.png" alt="n.png"><br><em>以上就是全部JDK的安装及配置教程，有问题的请留言！</em></p>
+</li>
+</ul>
+<h1 id="封装优化1——this"><a href="#封装优化1——this" class="headerlink" title="封装优化1——this"></a><strong>封装优化1——this</strong></h1><p><strong>this的含义<br>this代表所在类的当前对象的引用（地址值），即对象自己的引用。<br>记住 ：方法被哪个对象调用，方法中的this就代表那个对象。即谁在调用，this就代表谁。<br>this使用格式<br>this.成员变量名；</strong><br><em>小贴士：方法中只有一个变量名时，默认也是使用 this 修饰，可以省略不写。</em></p>
+<h1 id="封装优化2——构造方法"><a href="#封装优化2——构造方法" class="headerlink" title="封装优化2——构造方法"></a><strong>封装优化2——构造方法</strong></h1><p><strong>当一个对象被创建时候，构造方法用来初始化该对象，给对象的成员变量赋初始值。</strong><br><em>小贴士：无论你与否自定义构造方法，所有的类都有构造方法，因为Java自动提供了一个无参数构造方法，<br>一旦自己定义了构造方法，Java自动提供的默认无参数构造方法就会失效。</em><br><strong>构造方法的定义格式<br>构造方法的写法上，方法名与它所在的类名相同。它没有返回值，所以不需要返回值类型，甚至不需要void。使用<br>构造方法后，代码如下：</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> </span>&#123;</span><br><span class="line"><span class="keyword">private</span> String name;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"><span class="comment">// 无参数构造方法</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">()</span> </span>&#123;&#125;</span><br><span class="line"><span class="comment">// 有参数构造方法</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(String name,<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line"><span class="keyword">this</span>.name = name;</span><br><span class="line"><span class="keyword">this</span>.age = age;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong><em>注意事项</em></strong></p>
+<ul>
+<li>如果你不提供构造方法，系统会给出无参数构造方法。</li>
+<li>如果你提供了构造方法，系统将不再提供无参数构造方法。</li>
+<li>构造方法是可以重载的，既可以定义参数，也可以不定义参数。</li>
+</ul>
+<p><em>以上就是封装的相关内容，有问题的请留言！</em></p>
 
     </div>
 
@@ -394,20 +379,20 @@
           
         
         <div class="post-tags">
-            <a href="/tags/实战教程-心得分享/" rel="tag"># -实战教程 -心得分享</a>
+            <a href="/tags/笔记-心得分享/" rel="tag"># -笔记 -心得分享</a>
           
         </div>
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
+              <a href="/2019/08/06/jdk下载及环境变量配置/" rel="next" title="jdk下载及环境变量配置">
+                <i class="fa fa-chevron-left"></i> jdk下载及环境变量配置
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-              <a href="/2019/08/18/java三大基本特征之封装/" rel="prev" title="java三大基本特征之封装">
-                java三大基本特征之封装 <i class="fa fa-chevron-right"></i>
-              </a>
-            
           </div>
         </div>
     </footer>
@@ -559,7 +544,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#（一）下载"><span class="nav-number">1.</span> <span class="nav-text">（一）下载</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#null"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">拉至底部</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（二）安装"><span class="nav-number">2.</span> <span class="nav-text">（二）安装</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#null"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">1.此处需将公共JRE的功能去掉，因为JDK本身就包含了JRE，不需要重复安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#null"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">2.可以在此处更改安装路径(请务必记住安装路径，后面环境变量配置有用，此处以D盘根路径作为演示)</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（三）配置环境变量"><span class="nav-number">3.</span> <span class="nav-text">（三）配置环境变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量配置"><span class="nav-number">3.1.</span> <span class="nav-text">1.完整配置如下，“我的电脑”-右键-“属性”-（左侧）高级系统设置-（弹窗右下角）环境变量配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-变量名及变量值："><span class="nav-number">3.2.</span> <span class="nav-text">2.变量名及变量值：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-更改path的变量值。"><span class="nav-number">3.3.</span> <span class="nav-text">3.更改path的变量值。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-验证配置是否成功："><span class="nav-number">3.4.</span> <span class="nav-text">4.验证配置是否成功：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。"><span class="nav-number">1.0.0.0.1.</span> <span class="nav-text">面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。封装可以被认为是一个保护屏障，将属性隐藏起来，若需要访问某个属性，提供公共方法对其访问。防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#步骤"><span class="nav-number">2.</span> <span class="nav-text">步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-使用-private-关键字来修饰成员变量。"><span class="nav-number">2.0.0.0.1.</span> <span class="nav-text">1. 使用 private 关键字来修饰成员变量。</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-对需要访问的成员变量，提供对应的一对-getXxx-方法-、setXxx-方法。"><span class="nav-number">2.0.0.0.2.</span> <span class="nav-text">2. 对需要访问的成员变量，提供对应的一对 getXxx 方法 、setXxx 方法。</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#操作——private关键字"><span class="nav-number">3.</span> <span class="nav-text">操作——private关键字</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#private的使用格式"><span class="nav-number">3.0.0.0.1.</span> <span class="nav-text">private的使用格式:</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#封装优化1——this"><span class="nav-number">4.</span> <span class="nav-text">封装优化1——this</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#封装优化2——构造方法"><span class="nav-number">5.</span> <span class="nav-text">封装优化2——构造方法</span></a></li></ol></div>
             
 
           </div>
@@ -703,7 +688,7 @@
 
 <script>
   window.livereOptions = {
-    refer: '2019/08/06/jdk下载及环境变量配置/'
+    refer: '2019/08/18/java三大基本特征之封装/'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
